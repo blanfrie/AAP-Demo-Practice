@@ -1,0 +1,8 @@
+---
+- name: Enforce compliance
+  hosts: all
+  tasks:
+
+    - name: Display compliance check results
+      ansible.builtin.debug:
+        msg: "Enforce compliance"

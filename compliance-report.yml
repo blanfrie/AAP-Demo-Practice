@@ -1,8 +1,8 @@
 ---
-- name: Compliance Check
+- name: Compliance report
   hosts: all
   tasks:
 
     - name: Display compliance check results
       ansible.builtin.debug:
-        msg: "Compliant"
+        msg: "Compliance report"

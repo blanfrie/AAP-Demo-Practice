@@ -1,0 +1,8 @@
+---
+- name: Update Inventory
+  hosts: all
+  tasks:
+
+    - name: Display compliance check results
+      ansible.builtin.debug:
+        msg: "Update Inventory"
